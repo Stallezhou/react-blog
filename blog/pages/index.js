@@ -3,6 +3,7 @@ import Head from 'next/head'
 import Header from '../components/Header/index'
 import Author from '../components/Author/index'
 import Advert from '../components/Advert/index'
+import Footer from '../components/Footer/index'
 import {Col, List,Row} from 'antd'
 import Mock from 'mockjs'
 const listData = Mock.mock({
@@ -48,6 +49,7 @@ const Home = ()=>{
         <Advert/>
       </Col>
     </Row>
+    <Footer/>
   </div>
   )
 }
