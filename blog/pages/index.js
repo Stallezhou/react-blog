@@ -2,6 +2,7 @@ import {useState} from 'react'
 import Head from 'next/head'
 import Header from '../components/Header/index'
 import Author from '../components/Author/index'
+import Advert from '../components/Advert/index'
 import {Col, List,Row} from 'antd'
 import Mock from 'mockjs'
 const listData = Mock.mock({
@@ -44,6 +45,7 @@ const Home = ()=>{
       </Col>  
       <Col className='aside' xs={0} sm={0} md={7} lg={5} xl={4}>
         <Author/>
+        <Advert/>
       </Col>
     </Row>
   </div>
